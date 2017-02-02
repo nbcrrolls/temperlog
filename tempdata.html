@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var jsonData = $.ajax({
+          url: "tempdata.php",
+          dataType: "json",
+          async: false
+          }).responseText;
+      var data = new google.visualization.DataTable(jsonData);
+
+      var options = {
+        title:"",
+        legend: { position: 'top', textStyle: {color: 'black', fontSize: 12} },
+        colors: ['red','blue'],
+        width: 900,
+        height: 600,
+        enableInteractivity: false,
+        chartArea: { width: '85%' },
+        vAxis: { title: "Temperature, degrees", },
+        hAxis: { // time-axis 
+          title: "Date/Time",
+          //viewWindow: { min: new Date(2017, 0, 27, 18), max: new Date(2017, 0, 27, 20) },
+          gridlines: { count: -1, units: { days: {format: ['MMM dd']}, hours: {format: ['HH:mm', 'ha']}, } },
+          minorGridlines: { units: { hours: {format: ['hh:mm:ss a', 'ha']}, minutes: {format: ['HH:mm a Z', ':mm']} } }
+        }
+      };
+      var chart = new google.visualization.LineChart( document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+
+  <body>
+    <h2 style="text-align: center;">Rocce rack temperature log</h2>
+    <div id="chart_div" style="width: 900px; height: 500px"></div>
+  </body>
+</html>
+
