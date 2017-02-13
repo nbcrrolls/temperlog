@@ -1,0 +1,265 @@
+Temperature  data collected from ipmitool and searching switches records:
+
+
+Rocce cluster
+--------------------
+Rocce Myricom Switch
+  Myricom Switch : status: slot.m: 10G-MONITOR-B.0:   temperature.0 temperature: 43 C
+  Myricom Switch : status: slot.m: 10G-MONITOR-B.0:   temperature.1 temperature: 41 C
+  Myricom Switch : status: slot.0: 10G-SW32LC-16QP.0: temperature.0 temperature: 43 C
+  Myricom Switch : status: slot.0: 10G-SW32LC-16QP.0: temperature.1 temperature: 41 C
+  Myricom Switch : status: slot.1: 10G-SW32LC-16QP.0: temperature.0 temperature: 43 C
+  Myricom Switch : status: slot.1: 10G-SW32LC-16QP.0: temperature.1 temperature: 42 C
+  Myricom Switch : status: slot.2: 10G-SW32LC-16QP.0: temperature.0 temperature: 43 C
+  Myricom Switch : status: slot.2: 10G-SW32LC-16QP.0: temperature.1 temperature: 42 C
+  Myricom Switch : status: slot.4: 10G-2SW32LC.0:     temperature.0 temperature: 46 C
+  Myricom Switch : status: slot.4: 10G-2SW32LC.0:     temperature.1 temperature: 42 C
+  Myricom Switch : status: slot.5: 10G-2SW32LC.0:     temperature.0 temperature: 48 C
+  Myricom Switch : status: slot.5: 10G-2SW32LC.0:     temperature.1 temperature: 42 C
+  Myricom Switch : status: slot.6   overtemps: 136
+  Myricom Switch : status: slot.6: 10G-SW32LC-16ES.0: temperature.0 temperature: 56 C
+  Myricom Switch : status: slot.6: 10G-SW32LC-16ES.0: temperature.1 temperature: 43 C
+  Myricom Switch : status: slot.8: 10G-SW32LC-16QP.0: temperature.0 temperature: 43 C
+  Myricom Switch : status: slot.8: 10G-SW32LC-16QP.0: temperature.1 temperature: 41 C
+  Myricom Switch : status: slot.9: 10G-SW32LC-16QP.0: temperature.0 temperature: 44 C
+  Myricom Switch : status: slot.9: 10G-SW32LC-16QP.0: temperature.1 temperature: 41 C
+  Myricom Switch : status: slot.56: M3-FAN.0:         temperature.0 temperature: 44 C
+
+Rocce SMS switch System Temperature:
+  Unit 1 Temperature 1:  79 degrees     Temperature 2:  79 degrees
+  Unit 2 Temperature 1:  81 degrees     Temperature 2:  78 degrees
+
+compute-0-30: Ambient Temp     | 31 degrees C      | ok
+compute-0-29: Ambient Temp     | 32 degrees C      | ok
+compute-0-28: Ambient Temp     | 32 degrees C      | ok
+compute-0-27: Ambient Temp     | 31 degrees C      | ok
+compute-0-26: Ambient Temp     | 31 degrees C      | ok
+compute-0-25: Ambient Temp     | 30 degrees C      | ok
+compute-0-23: Ambient Temp     | 29 degrees C      | ok
+compute-0-22: Ambient Temp     | 29 degrees C      | ok
+compute-0-21: Ambient Temp     | 29 degrees C      | ok
+compute-0-19: Ambient Temp     | 28 degrees C      | ok
+compute-0-17: Ambient Temp     | 28 degrees C      | ok
+compute-0-24: Ambient Temp     | 30 degrees C      | ok
+compute-0-14: Ambient Temp     | 29 degrees C      | ok
+compute-0-13: Ambient Temp     | 28 degrees C      | ok
+compute-0-12: Ambient Temp     | 29 degrees C      | ok
+compute-0-11: Ambient Temp     | 29 degrees C      | ok
+compute-0-10: Ambient Temp     | 29 degrees C      | ok
+compute-0-9: Ambient Temp     | 29 degrees C      | ok
+compute-0-8: Ambient Temp     | 30 degrees C      | ok
+compute-0-7: Ambient Temp     | 31 degrees C      | ok
+compute-0-5: Ambient Temp     | 33 degrees C      | ok
+compute-0-4: Ambient Temp     | 34 degrees C      | ok
+compute-0-3: Ambient Temp     | 31 degrees C      | ok
+compute-0-2: Ambient Temp     | 37 degrees C      | ok
+compute-0-1: Ambient Temp     | 36 degrees C      | ok
+compute-0-0: Ambient Temp     | 38 degrees C      | ok
+
+gpu-0-3: Inlet Temp       | 41 degrees C      | ok
+gpu-0-3: Exhaust Temp     | 43 degrees C      | ok
+gpu-0-3: Temp             | 58 degrees C      | ok
+gpu-0-3: Temp             | 56 degrees C      | ok
+
+gpu-0-2: Inlet Temp       | 36 degrees C      | ok
+gpu-0-2: Exhaust Temp     | 41 degrees C      | ok
+gpu-0-2: Temp             | 63 degrees C      | ok
+gpu-0-2: Temp             | 62 degrees C      | ok
+
+gpu-0-1: Inlet Temp       | 33 degrees C      | ok
+gpu-0-1: Exhaust Temp     | 38 degrees C      | ok
+gpu-0-1: Temp             | 58 degrees C      | ok
+gpu-0-1: Temp             | 61 degrees C      | ok
+
+gpu-0-0: Inlet Temp       | 33 degrees C      | ok
+gpu-0-0: Exhaust Temp     | 35 degrees C      | ok
+gpu-0-0: Temp             | 48 degrees C      | ok
+gpu-0-0: Temp             | 49 degrees C      | ok
+
+gpu-1-0: GPU1 Temp        | 63 degrees C      | ok
+gpu-1-0: GPU2 Temp        | 68 degrees C      | ok
+gpu-1-0: System Temp      | 31 degrees C      | ok
+gpu-1-0: P1-DIMM1A Temp   | 36 degrees C      | ok
+gpu-1-0: P1-DIMM1B Temp   | 35 degrees C      | ok
+gpu-1-0: P1-DIMM2A Temp   | 36 degrees C      | ok
+gpu-1-0: P1-DIMM2B Temp   | 36 degrees C      | ok
+gpu-1-0: P1-DIMM3A Temp   | 38 degrees C      | ok
+gpu-1-0: P1-DIMM3B Temp   | 38 degrees C      | ok
+gpu-1-0: P2-DIMM1A Temp   | 45 degrees C      | ok
+gpu-1-0: P2-DIMM1B Temp   | 43 degrees C      | ok
+gpu-1-0: P2-DIMM2A Temp   | 47 degrees C      | ok
+gpu-1-0: P2-DIMM2B Temp   | 46 degrees C      | ok
+gpu-1-0: P2-DIMM3A Temp   | 47 degrees C      | ok
+gpu-1-0: P2-DIMM3B Temp   | 48 degrees C      | ok
+
+gpu-1-1: GPU1 Temp        | 52 degrees C      | ok
+gpu-1-1: GPU2 Temp        | 58 degrees C      | ok
+gpu-1-1: System Temp      | 33 degrees C      | ok
+gpu-1-1: P1-DIMM1A Temp   | 37 degrees C      | ok
+gpu-1-1: P1-DIMM1B Temp   | 37 degrees C      | ok
+gpu-1-1: P1-DIMM2A Temp   | 37 degrees C      | ok
+gpu-1-1: P1-DIMM2B Temp   | 38 degrees C      | ok
+gpu-1-1: P1-DIMM3A Temp   | 37 degrees C      | ok
+gpu-1-1: P1-DIMM3B Temp   | 38 degrees C      | ok
+gpu-1-1: P2-DIMM1A Temp   | 46 degrees C      | ok
+gpu-1-1: P2-DIMM1B Temp   | 45 degrees C      | ok
+gpu-1-1: P2-DIMM2A Temp   | 47 degrees C      | ok
+gpu-1-1: P2-DIMM2B Temp   | 46 degrees C      | ok
+gpu-1-1: P2-DIMM3A Temp   | 47 degrees C      | ok
+gpu-1-1: P2-DIMM3B Temp   | 48 degrees C      | ok
+
+gpu-1-2: GPU1 Temp        | 57 degrees C      | ok
+gpu-1-2: GPU2 Temp        | 61 degrees C      | ok
+gpu-1-2: System Temp      | 34 degrees C      | ok
+gpu-1-2: P1-DIMM1A Temp   | 38 degrees C      | ok
+gpu-1-2: P1-DIMM1B Temp   | 37 degrees C      | ok
+gpu-1-2: P1-DIMM2A Temp   | 39 degrees C      | ok
+gpu-1-2: P1-DIMM2B Temp   | 39 degrees C      | ok
+gpu-1-2: P1-DIMM3A Temp   | 38 degrees C      | ok
+gpu-1-2: P1-DIMM3B Temp   | 40 degrees C      | ok
+gpu-1-2: P2-DIMM1A Temp   | 46 degrees C      | ok
+gpu-1-2: P2-DIMM1B Temp   | 44 degrees C      | ok
+gpu-1-2: P2-DIMM2A Temp   | 48 degrees C      | ok
+gpu-1-2: P2-DIMM2B Temp   | 47 degrees C      | ok
+gpu-1-2: P2-DIMM3A Temp   | 49 degrees C      | ok
+gpu-1-2: P2-DIMM3B Temp   | 49 degrees C      | ok
+
+gpu-1-3: GPU1 Temp        | 52 degrees C      | ok
+gpu-1-3: GPU2 Temp        | 59 degrees C      | ok
+gpu-1-3: System Temp      | 34 degrees C      | ok
+gpu-1-3: P1-DIMM1A Temp   | 39 degrees C      | ok
+gpu-1-3: P1-DIMM1B Temp   | 39 degrees C      | ok
+gpu-1-3: P1-DIMM2A Temp   | 40 degrees C      | ok
+gpu-1-3: P1-DIMM2B Temp   | 40 degrees C      | ok
+gpu-1-3: P1-DIMM3A Temp   | 40 degrees C      | ok
+gpu-1-3: P1-DIMM3B Temp   | 41 degrees C      | ok
+gpu-1-3: P2-DIMM1A Temp   | 47 degrees C      | ok
+gpu-1-3: P2-DIMM1B Temp   | 45 degrees C      | ok
+gpu-1-3: P2-DIMM2A Temp   | 49 degrees C      | ok
+gpu-1-3: P2-DIMM2B Temp   | 48 degrees C      | ok
+gpu-1-3: P2-DIMM3A Temp   | 49 degrees C      | ok
+gpu-1-3: P2-DIMM3B Temp   | 50 degrees C      | ok
+
+gpu-1-4: GPU1 Temp        | 55 degrees C      | ok
+gpu-1-4: GPU2 Temp        | 60 degrees C      | ok
+gpu-1-4: System Temp      | 36 degrees C      | ok
+gpu-1-4: P1-DIMM1A Temp   | 41 degrees C      | ok
+gpu-1-4: P1-DIMM1B Temp   | 40 degrees C      | ok
+gpu-1-4: P1-DIMM2A Temp   | 41 degrees C      | ok
+gpu-1-4: P1-DIMM2B Temp   | 41 degrees C      | ok
+gpu-1-4: P1-DIMM3A Temp   | 41 degrees C      | ok
+gpu-1-4: P1-DIMM3B Temp   | 42 degrees C      | ok
+gpu-1-4: P2-DIMM1A Temp   | 48 degrees C      | ok
+gpu-1-4: P2-DIMM1B Temp   | 46 degrees C      | ok
+gpu-1-4: P2-DIMM2A Temp   | 50 degrees C      | ok
+gpu-1-4: P2-DIMM2B Temp   | 49 degrees C      | ok
+gpu-1-4: P2-DIMM3A Temp   | 51 degrees C      | ok
+gpu-1-4: P2-DIMM3B Temp   | 51 degrees C      | ok
+
+gpu-1-5: GPU1 Temp        | 56 degrees C      | ok
+gpu-1-5: GPU2 Temp        | 62 degrees C      | ok
+gpu-1-5: System Temp      | 41 degrees C      | ok
+gpu-1-5: P1-DIMM1A Temp   | 45 degrees C      | ok
+gpu-1-5: P1-DIMM1B Temp   | 44 degrees C      | ok
+gpu-1-5: P1-DIMM2A Temp   | 45 degrees C      | ok
+gpu-1-5: P1-DIMM2B Temp   | 45 degrees C      | ok
+gpu-1-5: P1-DIMM3A Temp   | 46 degrees C      | ok
+gpu-1-5: P1-DIMM3B Temp   | 47 degrees C      | ok
+gpu-1-5: P2-DIMM1A Temp   | 53 degrees C      | ok
+gpu-1-5: P2-DIMM1B Temp   | 51 degrees C      | ok
+gpu-1-5: P2-DIMM2A Temp   | 56 degrees C      | ok
+gpu-1-5: P2-DIMM2B Temp   | 54 degrees C      | ok
+gpu-1-5: P2-DIMM3A Temp   | 58 degrees C      | ok
+gpu-1-5: P2-DIMM3B Temp   | 57 degrees C      | ok
+
+gpu-2-1: Inlet Temp       | 27 degrees C      | ok
+gpu-2-1: Exhaust Temp     | 40 degrees C      | ok
+
+gpu-2-2: Inlet Temp       | 28 degrees C      | ok
+gpu-2-2: Exhaust Temp     | 38 degrees C      | ok
+
+gpu-2-3: Inlet Temp       | 29 degrees C      | ok
+gpu-2-3: Exhaust Temp     | 40 degrees C      | ok
+
+gpu-2-4: Inlet Temp       | 31 degrees C      | ok
+gpu-2-4: Exhaust Temp     | 42 degrees C      | ok
+
+gpu-2-6: Inlet Temp       | 36 degrees C      | ok
+gpu-2-6: Exhaust Temp     | 41 degrees C      | ok
+
+nas-0-0: PROC/FRONT_T_AMB | 40 degrees C      | ok
+nas-0-0: PROC/REAR_T_AMB  | 38 degrees C      | ok
+nas-0-0: P0/T_CORE        | 24 degrees C      | ok
+nas-0-0: P1/T_CORE        | 23 degrees C      | ok
+nas-0-0: IO/REAR_T_AMB    | 60 degrees C      | ok
+nas-0-0: IO/FRONT_T_AMB   | 53 degrees C      | ok
+nas-0-0: DBP/T_AMB        | 26 degrees C      | ok
+
+nas-0-1: System Temp      | 38 degrees C      | ok
+nas-0-1: P1-DIMM1A Temp   | 40 degrees C      | ok
+nas-0-1: P1-DIMM2A Temp   | 40 degrees C      | ok
+nas-0-1: P1-DIMM3A Temp   | 40 degrees C      | ok
+nas-0-1: P2-DIMM1A Temp   | 37 degrees C      | ok
+nas-0-1: P2-DIMM2A Temp   | 38 degrees C      | ok
+nas-0-1: P2-DIMM3A Temp   | 39 degrees C      | ok
+
+nas-0-2: System Temp      | 40 degrees C      | ok
+nas-0-2: P1-DIMM1A Temp   | 43 degrees C      | ok
+nas-0-2: P1-DIMM2A Temp   | 43 degrees C      | ok
+nas-0-2: P1-DIMM3A Temp   | 42 degrees C      | ok
+nas-0-2: P2-DIMM1A Temp   | 41 degrees C      | ok
+nas-0-2: P2-DIMM2A Temp   | 42 degrees C      | ok
+nas-0-2: P2-DIMM3A Temp   | 42 degrees C      | ok
+
+Sten Cluster
+-------------------
+sten:     System Temp      | 47 degrees C      | ok
+sten-0-0: System Temp      | 43 degrees C      | ok
+sten-0-1: System Temp      | 44 degrees C      | ok
+sten-0-2: System Temp      | 45 degrees C      | ok
+sten-0-3: System Temp      | 44 degrees C      | ok
+sten-0-4: System Temp      | 45 degrees C      | ok
+sten-0-5: System Temp      | 43 degrees C      | ok
+sten-0-6: System Temp      | 44 degrees C      | ok
+sten-nas-2-0: System Temp      | 43 degrees C      | ok
+sten-nas-2-0: P1-DIMM1A Temp   | 43 degrees C      | ok
+sten-nas-2-0: P1-DIMM2A Temp   | 42 degrees C      | ok
+sten-nas-2-0: P1-DIMM3A Temp   | 45 degrees C      | ok
+sten-nas-2-0: P2-DIMM1A Temp   | 44 degrees C      | ok
+sten-nas-2-0: P2-DIMM2A Temp   | 44 degrees C      | ok
+sten-nas-2-0: P2-DIMM3A Temp   | 44 degrees C      | ok
+nas-2-1-nbcr-229: CPU Temp         | 48 degrees C      | ok
+nas-2-1-nbcr-229: System Temp      | 42 degrees C      | ok
+nas-2-1-nbcr-229: Peripheral Temp  | 51 degrees C      | ok
+nas-2-1-nbcr-229: PCH Temp         | 62 degrees C      | ok
+nbcr-arista-0-1#show environment all
+    System temperature status is: Ok
+    Sensor  Description                            Temperature  Threshold  Threshold
+    ------- ------------------------------------ ------------- ---------- ----------
+    1       Cpu temp sensor                            51.869C        95C       100C
+    2       Rear temp sensor                           44.750C        55C        65C
+    3       Board temp sensor                          47.000C        65C        75C
+    4       Front-panel temp sensor                    45.000C        65C        75C
+    5       Trident Bottom Right Outer                 52.016C       100C       110C
+    6       Trident Bottom Left Outer                  49.846C       100C       110C
+    7       Trident Top Left Outer                     50.931C       100C       110C
+    8       Trident Top Right Outer                    50.389C       100C       110C
+    9       Trident Bottom Right Inner                 54.186C       100C       110C
+    10      Trident Bottom Left Inner                  51.474C       100C       110C
+    11      Trident Top Left Inner                     52.016C       100C       110C
+    12      Trident Top Right Inner                    53.101C       100C       110C
+
+nbcr-230 Cluster
+==================
+nbcr-230: CPU1 Temp        | 46 degrees C      | ok
+nbcr-230: CPU2 Temp        | 47 degrees C      | ok
+nbcr-230: System Temp      | 45 degrees C      | ok
+nbcr-230: Peripheral Temp  | 56 degrees C      | ok
+nbcr-230: PCH Temp         | 52 degrees C      | ok
+nbcr-230: 10G Temp         | 73 degrees C      | ok
+compute-0-0: System Temp      | 46 degrees C      | ok
+compute-0-1: System Temp      | 48 degrees C      | ok
+compute-0-2: System Temp      | 46 degrees C      | ok
+compute-0-3: System Temp      | 48 degrees C      | ok
+
+
