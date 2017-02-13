@@ -22,3 +22,17 @@ Json data file has a format:
 {"c":[{"v": "Date(2017,0,27,15,45,1)"}, {"v": 105.80}, {"v": 41.00}]},
 ...
 }
+
+INSTALL
+
+1. download 
+   wget http://dev-random.net/wp-content/uploads/2016/01/temperv14.zip
+
+2. install dependencies 
+    yum --enablerepo=base install libusb-devel (it will add libusb if not there)
+
+3. compile
+   unzip  temperv14.zip ; cd temperv14
+   edit makefile if needed
+   make
+
