@@ -24,6 +24,7 @@ Json data file has a format:
 {"c":[{"v": "Date(2017,0,27,15,35,1)"}, {"v": 106.81}, {"v": 41.56}]},
 {"c":[{"v": "Date(2017,0,27,15,40,1)"}, {"v": 105.12}, {"v": 40.62}]},
 }
+```
 
 INSTALL
 
@@ -39,8 +40,7 @@ INSTALL
 
 3. compile
 ```shell
-   unzip  temperv14.zip ; cd temperv14
-   (edit makefile if needed)
+   unzip  temperv14.zip ; cd temperv14 (edit makefile if needed)
    make
 ```
-4. place tempdata.html adn tempdata.php in /var/www/html/
+4. place tempdata.html and tempdata.php in /var/www/html/
